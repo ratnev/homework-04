@@ -88,20 +88,15 @@ img {
 }
 
 /* FEATURED PRODUCTS SECTION */
-h2 {
-    width: auto;
-    height: auto;
+.fp-header {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 900;
     line-height: 32px;
     color: #555252;
-    margin: 0;
     text-align: center;
-}
-
-.fp-header {
+    margin: 0;
     margin-bottom: 92px;
 }
 
@@ -178,7 +173,19 @@ h2 {
 }
 
 /* LATES-NEWS SECTION */
+.latest-news {
+    padding-bottom: 80px;
+}
+
 .ln-header {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 32px;
+    color: #555252;
+    text-align: center;
+    margin: 0;
     margin-bottom: 80px;
 }
 
@@ -211,7 +218,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-h3 {
+.ln-head-text {
     margin: 0;
     margin-bottom: 26px;
     font-size: 18px;
@@ -220,13 +227,13 @@ h3 {
     color: #555252;
 }
 
-h3::after {
+.ln-head-text::after {
     content: '';
     width: 136px;
     height: 4px;
     display: block;
     background-color: #1abc9c;
-    margin: 16px 118px 16px 0;
+    margin: 16px 118px 0 0;
 }
 
 .ln-text {
@@ -235,9 +242,8 @@ h3::after {
     margin-bottom: 16px;
 }
 
-button {
+.rm {
     padding: 0;
-    margin-bottom: 80px;
     font-size: 16px;
     line-height: 26px;
     width: 160px;
@@ -248,7 +254,7 @@ button {
     border-radius: 2%;
 }
 
-button:hover {
+.rm:hover {
     cursor: pointer;
 }
 
